@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styler.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Welcome to Project 1: The Home Page!</h1>
+        <aside>
+            <p>
+                <strong>Description</strong><br>
+                In this project, we are to demonstrate our knowledge & understanding
+                of HTML & CSS by creating a "home Page."" So I thought, <i>"what better way to do that then to make a
+                small bio?"</i> <br>Hopefully I'm not confused as to what a home page is, for I believe a home page
+                is a place to express myself & ideas.<br>Please, enjoy.
+            </p>
+        </aside>
+        <h3>Navigation</h3>
+        <nav>
+            <ul>
+                <li><a href="#me">Me</a></li>
+                <li><a href="#favs">Favorites</a></li>
+                <li><a href="#you">You</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2 id="me">Me</h2>
+            <div>
+                <img src="Aaron.jpg" alt="Me" width="264" height="309">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td colspan="3">Aaron P. Mills</td>
+                    </tr>
+                    <tr>
+                        <th>Age</th>
+                        <td colspan="3">19 years old</td>
+                    </tr>
+                    <tr>
+                        <th>Interests</th>
+                        <td>Coding</td>
+                        <td>Msuic</td>
+                        <td>Animals</td>
+                    </tr>
+                     <tr>
+                        <th>More Info</th>
+                        <td colspan="3"><a href="https://www.linkedin.com/in/aaron-mills-69005920a/">Linkedin</a></td>
+                     </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2 id="favs">Favorites</h2>
+            <h3>Meal</h3>
+            <div><img src="Pizza.jpg" alt="Pizza" width="381" height="222"></div>
+            <p>
+                <b>Let's start off with something everyone appreciates: pizza.</b><br>
+                I don't want to show too much & make anyone hungry, <i>I 
+                could lose points for that!</i> <br> Pizza is one of my favorite
+                dishes, next to ravioli, macaroni, cheese sticks, & hot
+                pockets. <br>The combination sauce, cheese, & bread is simply unbeatable. 
+            </p>
+            <h3>Game</h3>
+            <div><img src="Smash.jpg" alt="Super Smash" width="392" height="233"></div>
+            <p>
+                <b>Chances are, your favorite character is in this fighting game: <cite>Super Smash Bros. Ultimate.</cite></b>
+                <br>Created by <a href="https://en.wikipedia.org/wiki/Masahiro_Sakurai">Masahiro Sakurai</a>, <cite>Smash Bros
+                </cite>is a platform-fighting game with one of the largest playable rosters in videogame history! 
+                If there's one game I recommend, this is the one...Actually, this is <b>the only game you "need."</b>
+                There's no other game I'd rather play. <br>As a matter of fact, click 
+                <a href="https://www.smashbros.com/en_US/fighter/"> here</a> to see if YOUR fighter is in Smash Bros!
+            </p>
+            <h3>Show</h3>
+            <div><img src="Naruto.gif" alt="Naruto"></div>
+            <p>
+                <b>My number one favorite show of all time is: <cite>Naruto</cite>!</b><br>
+                I don't believe I have enough words to express my affection this work of art
+                by <a href="https://en.wikipedia.org/wiki/Masashi_Kishimoto">Masashi Kishimoto</a>. 
+                <cite>Naruto</cite> has been around since my birth, & has grown with me.
+                In short, this legend is about a lonesome orphan with large dreams who
+                works to the extreme to earn the respect of his enemies while growing to
+                navigate the ninja world. <br>
+                Because I cannot do the show justice with english alone, I encourage you to visit 
+                <a href="https://en.wikipedia.org/wiki/Naruto">this page</a> to educate yourself. Then watch
+                the series to enhance your quality of life. 
+            </p>
+        </section>
+        <section>
+            <h2 id="you">You</h2>
+            To talk only about myself would be boring. This is your chance to share your thoughts.<br>
+            <div>
+                <form action="thanks.gif" method="GET">
+                    <label for="name">Your name? </label>
+                    <input type="text" id="name" placeholder="Not Aaron">
+                    <br>
+                    <label for="foods">Favorite meal? </label>
+                    <input type="text" id="foods" placeholder="Pizza">
+                    <br>
+                    <label for="game">Favorite game? </label>
+                    <input type="text" id="game" placeholder="Super Smash Bros. Ultimate">
+                    <br>
+                    <label for="show">Favorite show? </label>
+                    <input type="text" id="show" placeholder="Naruto">
+                    <br>Do you like my page?
+                    <input type="radio" name="decision" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="decision" id="no" value="no">
+                    <label for="no">No</label>
+                    <br>
+                    <label for="feed">Feedback?</label>        
+                    <br>
+                    <textarea id="feed" placeholder="Don't have any." rows="5" cols="40"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <footer><span style="color:darkred">CONGRATULATIONS: </span>You have made it to the end!</footer>
+    </body>
+</html>

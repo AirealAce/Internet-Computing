@@ -1,0 +1,56 @@
+:root {
+    --aaron-color: rgb(204, 31, 31);
+}
+.goodcolor {/*general page color*/
+    background-color: darkred;
+    color: white;
+}
+.pagepop {/*for pop-up page*/
+    background-color: darkred;
+    color:white;
+}
+
+.pagepopi {/*for divider in pop-up page */
+    background-color: red;
+    color:black;
+}
+
+.classy{/*font color */
+    color: red;
+}
+.pictu {/*For images*/
+    border: 3px solid darkgreen;
+}
+.divider-custom.divider-lighti .divider-custom-line {/*for content divider Image*/
+    background-color: palevioletred;
+  }
+  .divider-custom.divider-lighti .divider-custom-icon {/*for Content Divider Image*/
+    color: goldenrod;
+  }
+  .divider-custom.divider-dark .divider-custom-line {/*for content divider Image*/
+    background-color: black;
+  }
+  .divider-custom.divider-dark .divider-custom-icon {/*for content Divider Image*/
+    color: black;
+  }
+  .mb-6 {/*For Paragraphs in pop-up windows*/
+    margin-bottom: 1.5rem !important;
+    color: white;
+  }
+  table,td,th,tr {/*for table*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid darkred;
+    border-collapse: collapse;
+    background-color: lightgray;
+    max-width: 100%;
+    height: auto;
+    table-layout: fixed;
+  }
+  .teburu {
+    max-width: 100%;
+    width: 100%; 
+    height: auto;
+    table-layout: fixed;
+  }
+

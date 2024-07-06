@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--- My CSS-->
+    <link href="css/styler.css" rel="stylesheet">
+    <title>Calculator!</title>
+  </head>
+  <body>
+    <h1>Calculator!</h1>
+
+    <div class="container mb-3">
+        <p>
+            <label for="" class="form-label">Number 1</label>
+            <input type="text" class="form-control" id="myNumber1" placeholder="Number 1">
+            <label for="" class="form-label">Number 2</label>
+            <input type="text" class="form-control" id="myNumber2" placeholder="Number 2">
+            <label for="" class="form-label">Number 3</label>
+            <input type="text" class="form-control" id="myNumber3" placeholder="Number 3"> 
+        </p>
+        <p class="error">
+           <span id="error1"></span>
+           <span id="error2"></span>
+           <span id="error3"></span>
+           <span id="error4"></span> 
+        </p>
+        <p>
+            <div class="btn-group" role="group" aria-label="Basic example" >
+                <button type="button" id="process" class="btn btn-primary" >Calculate</button>
+            </div>
+        </p>
+    </div>
+    <table class="table">
+        <tr class="table-heading">
+            <td>Statistic</td>
+            <td>Value</td>
+        </tr>
+        <tr>
+            <td>Max Value</td>
+            <td id="max"></td>
+        </tr>
+        <tr>
+            <td>Min Value</td>
+            <td id="min"></td>
+        </tr>
+        <tr>
+            <td>Mean Value</td>
+            <td id="mean"></td>
+        </tr>
+        <tr>
+            <td>Median Value</td>
+            <td id="median"></td>
+        </tr>
+        <tr>
+            <td>Range Value</td>
+            <td id ="range"></td>
+        </tr>
+    </table>
+    <!-- My JS-->
+    <script src="./js/myscripts.js"></script>   
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
